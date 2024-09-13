@@ -55,7 +55,6 @@ export const Tarefa = styled.div`
 `;
 export const TarefaDescrition = styled.div`
     flex:1;
-    border: 1px solid #333;
     display:flex;
     flex-direction:column;
     gap:20px

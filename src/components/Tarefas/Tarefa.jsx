@@ -9,14 +9,14 @@ const complet = (id)=>{
 }
 
   return (
-    <c.Tarefa>
+    <c.Tarefa style={{backgroundColor:datatask.completed ?'#47474ec2':''}}>
         <c.TarefaDescrition style={{textDecoration: datatask.completed ? 'line-through' :'none'}} >
           <strong >{datatask.name}</strong>
           <i className='date'>{datatask.date}</i>
         </c.TarefaDescrition>
         <c.TarefaControls>
             <button className='button-concluir' onClick={()=>completar(datatask.id)}> Concluir</button>
-            <button className='button-delete' onClick={()=>deletar(id)}> X</button>   
+            <button className='button-delete' onClick={()=>deletar(datatask.id)}> X</button>   
         </c.TarefaControls>
         {
           console.log(!datatask.completed ? 'line-through' :'none')
