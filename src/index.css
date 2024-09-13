@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    transition: transform 1.5s;
+}
+ button{
+    background-Color:transparent;
+    border: none;
+    cursor: pointer;
+ }
+
+ .button-delete{   
+    background-color:rgba(235, 81, 81, 0.493);
+    color:#ccc;
+    border-radius: 3px;
+   padding: 5px 7px;
+   margin: auto 3px;
+   font-weight: 600;
+   
+}
+.button-delete:hover{
+   color: #fff;
+   background-color: rgb(185, 61, 40);
+
+ }
+ .button-concluir{
+   padding: 5px 7px;
+   color:#ccc;
+   border-radius: 3px;
+   background-color: #0a9db1de;
+   margin: auto;
+   
+ }
+ .button-concluir:ov{
+
+   background-color: #046572b0;
+ }
+ 
+ .button-delete img{
+
+ }
+ .date{
+   font-size: 10px;
+   margin-top: auto;
+   text-decoration: underline;
+ }
+ .error-message{
+  font-size: 13px;
+  color: rgb(214, 69, 43);
+  padding: 4px;
+  text-align: center;
+  letter-spacing: 1.5px;
+ }
