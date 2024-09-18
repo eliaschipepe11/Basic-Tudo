@@ -14,6 +14,7 @@ export const Input = styled.input`
     background-color: #bfc1c2ab;
     border-radius:3px;
     flex:1;
+     letter-spacing: 1.5px;
 `;
 
 export const Button = styled.button`
@@ -21,8 +22,10 @@ export const Button = styled.button`
     background-color: #1470dac9;
     padding:5px 8px;
     border-radius:4px;
-    color: #ccc;
+    color: #fff;
     cursor: pointer;
+    &:hover{
+    color:#ddd}
 `;
 
 export const Tarefas = styled.div`

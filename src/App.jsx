@@ -31,7 +31,7 @@ function App() {
   return(
     <c.mainContainer>
       <c.context>
-        <InputArea placeHolder={'Adicione uma atividade...'} Add={Add}  value={TaskName} onChange={(e)=>setTaskName(e.target.value)} />
+        <InputArea placeHolder={'Digite um titulo para a tarefa...'} Add={Add}  value={TaskName} onChange={(e)=>setTaskName(e.target.value)} />
         {data && data.length>0? <Tarefas data={data} completar={completTudo} deletar={remove} /> : null}
       </c.context>
     </c.mainContainer>
