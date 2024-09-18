@@ -27,16 +27,15 @@ export const Button = styled.button`
 
 export const Tarefas = styled.div`
     width: 100%;
-    padding: 10px 12px 15px;
+    padding: 20px 12px 15px;
     display: flex;
     flex-direction: column;
     gap:12px;
-    border-top:2px solid rgba(58,58,58, .19);
+    border-top:2px solid rgba(58,58,58,.6);
     margin-top:10px;
     max-height:325px;
     overflow-y:auto;
     overflow-x:hidden;
-    border: 3px solid #eee ;
 
 `;
 

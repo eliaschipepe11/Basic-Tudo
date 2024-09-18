@@ -19,7 +19,7 @@ const InputArea = ({placeHolder,Add,value,onChange}) => {
   }
 
   return (
-    <div style={{borderBottom:'2px solid #333'}}>
+    <div >
       <c.InputArea onSubmit={(e)=>Submit(e)}>
       <c.Input placeholder={placeHolder} value={value} te onChange={onChange} />
       <c.Button type='submit' onClick={Submit} >Add</c.Button>

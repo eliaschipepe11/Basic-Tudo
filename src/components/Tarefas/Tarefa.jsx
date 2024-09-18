@@ -11,7 +11,7 @@ const complet = (id)=>{
   return (
     <c.Tarefa style={{backgroundColor:datatask.completed ?'#47474ec2':''}}>
         <c.TarefaDescrition style={{textDecoration: datatask.completed ? 'line-through' :'none'}} >
-          <strong >{datatask.name}</strong>
+          <strong >{datatask.title}</strong>
           <i className='date'>{datatask.date}</i>
         </c.TarefaDescrition>
         <c.TarefaControls>
